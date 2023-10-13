@@ -49,7 +49,7 @@ const diamondTest = async () => {
 
     assert.equal(addresses.length, 3)
   })
-
+  
   step('Facets should have the right function selectors -- call to facetFunctionSelectors function', async () => {
     let selectors = getSelectors(diamondCutFacet)
     result = await diamondLoupeFacet.facetFunctionSelectors(addresses[0])
