@@ -1,9 +1,13 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
+import "@nomiclabs/hardhat-ethers";
+import "hardhat-deploy";
+
+import "@primitivefi/hardhat-dodoc";
+
 import "dotenv/config"; // import .env variables
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.18",
+  solidity: "0.8.19",
   networks: {
     klaytn_mainnet: {
       url: process.env.KLAYTN_NODE_MAIN_ENDPOINT,

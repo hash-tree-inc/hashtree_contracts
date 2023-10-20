@@ -1,2 +1,0 @@
-@main/=./contracts/main/
-@legacy/=./contracts/legacy/
