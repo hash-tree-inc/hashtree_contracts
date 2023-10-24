@@ -7,11 +7,18 @@ import "../../storage/facets/AppStorageFacet.sol";
 contract VIVARIUM is AppStorageFacet {
     function _setAddress() external {
         AppStorage storage _s = appStorage();
-        _s.users[msg.sender]._userAddr = msg.sender;
+        _s.users[msg.sender]._userAddr = msg.sender;        
     }
 
     function _getAddress() external view returns (address, bool) {
         AppStorage storage _s = appStorage();
         return (_s.users[msg.sender]._userAddr, _s.users[msg.sender]._isBlack);
+    }
+
+    function _getBlock() external view returns (uint) {
+        return block.number;
+    }
+    function _bros() external view returns (uint) {
+        return (block.number);
     }
 }

@@ -12,7 +12,7 @@ export async function deployDiamond() {
   console.log("DiamondCutFacet deployed:", await diamondCutFacet.getAddress());
 
   // deploy Diamond
-  const Diamond = await ethers.getContractFactory("RainForest");
+  const Diamond = await ethers.getContractFactory("Diamond");
   const diamond = await Diamond.deploy(
     contractOwner.address,
     await diamondCutFacet.getAddress()
