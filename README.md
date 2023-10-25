@@ -1,18 +1,15 @@
-# main project 
-- RainForest(RAF)
-- cross chain 
-- a vibrant ecosystem
+# hardhat Template
 
-# sub project
-- .
-- .
-- .
+```
+pnpm i
+```
 
 # using stack
-- Diamond Pattern
-- Klaytn Hardhat Utils
-- AA
 
-# install require 
+- Hardhat + Ethers V6
+- Diamond Pattern 2
+
+# install require
+
 - VS Extension (required)
   https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity

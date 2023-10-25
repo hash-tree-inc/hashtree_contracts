@@ -1,8 +1,0 @@
-{
-    "diamondAddress": "0xFaD7cA7cc5CeACE8f835ecC8037Ac514496C7E4C",
-    "diamondInitAddress" : "0x9273Acd6FA208c617034D667d98b38160097B5f8",
-    "diamondCutFacetAddress": "0xB25D16C033fF2698367152bc7f2EF48EbDBbf2AA",
-    "diamondLouperFacetAddress": "0x2a7f029ffce4750F8102Dfc48120A47784E88d7c" ,
-    "ownershipFacetAddress": "0xC400F1D93E146b91b250DCE161E414ba55d241b2",
-    "vivariumFacetAddress": "0x2de52781E987cc25b04eAC87284b61aC407ea07d"   
-}
